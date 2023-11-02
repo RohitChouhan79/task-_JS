@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Gilroy";
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 25px;
+}
+button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: salmon;
+    font-size: 20px;
+}
+
+#cursorContainer{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
